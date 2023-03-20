@@ -45,8 +45,10 @@ body {
 }
 .conteiner {
     max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .page-header-conteiner {
     display: flex;
@@ -71,6 +73,7 @@ body {
 .logo-footer {
     color:var(--logo-footer)
 }
+
 /* HEADER */
 
 .page-header {
@@ -123,10 +126,11 @@ body {
 .contacts-link:focus {
     color: var(--active-color);
 }
-.logo, .nav-link, .contacts-link {
+.logo-header, .nav-link, .contacts-link {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 
 /* MAIN PAGE */
 
@@ -135,12 +139,14 @@ body {
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-    padding-left: 472px;
-    padding-right: 472px;
     background-color: var(--secondary-color);
 }
 .hero-title {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
+
+    width: 496px;
     font-weight: 700;
     font-size: 56px;
     text-align: center;
@@ -257,12 +263,7 @@ body {
 }
 .ourteam-card-text {
     padding-top: 32px;
-    padding-right: 16px;
     padding-bottom: 32px;
-    padding-left: 16px;
-    
-    
-    
 }
 .ourteam-list-title {
     margin-bottom: 8px;
@@ -281,6 +282,11 @@ body {
 }
 
 /* FOOTER */
+
+.footer-box {
+    max-width: 264px;
+    /* margin-right: auto; */
+}
 
 .footer {
     padding-top: 100px;
